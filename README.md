@@ -1,5 +1,9 @@
 # RookShift
 
+![GitHub last commit](https://img.shields.io/github/last-commit/rugbedbugg/RookShift?style=for-the-badge&labelColor=000000&color=9ccbfb)
+![GitHub repo size](https://img.shields.io/github/repo-size/rugbedbugg/RookShift?style=for-the-badge&labelColor=000000&color=d3bfe6)
+![Stars](https://img.shields.io/github/stars/rugbedbugg/RookShift?style=for-the-badge&labelColor=000000&color=9ccbfe6)  
+
 A fully-kitted out Chess960 (Fischer Random Chess) position generator, encoder/decoder, message packer, built from scratch. Also includes a Verilog RTL implementation for hardware use.
 
 This backs the IEEE paper on FPGA-based Chess960 generation for steganography. Shoutout to my co-author Naman Goyal, who previously maintained the prototype code [here](https://github.com/NamanGoyalK/Chess960).
