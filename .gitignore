@@ -1,0 +1,11 @@
+build/
+*.exe
+*.o
+*.obj
+*.out
+*.pdb
+*.ilk
+data/*.mem
+work/
+transcript
+*.wdb

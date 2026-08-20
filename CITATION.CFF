@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite the associated IEEE conference paper."
+title: "Resource-Efficient FPGA Realization of Chess960 Position Generator"
+authors:
+  - family-names: Goyal
+    given-names: Naman
+    affiliation: Vellore Institute of Technology, Vellore, India
+    email: naman.goyal2024@vitstudent.ac.in
+  - family-names: Gogoi
+    given-names: Partha Pratim
+  - family-names: Tripathi
+    given-names: Abhishek Narayan
+  - family-names: Laskar
+    given-names: Naushad Manzoor
+version: "1.0.0"
+date-released: 2025-01-01
+conference:
+  name: "IEEE 1st International Conference on Smart Innovations in Systems, Infrastructure, Mechanical, Power, AI and Computing Technologies (SISIMPACT)"
+doi: "10.1109/SISIMPACT67725.2025.11439749"
+license: Apache-2.0
+repository-code: "https://github.com/NamanGoyalK/Chess960"
+keywords:
+  - FPGA
+  - Chess960
+  - Steganography
+  - Hardware Security
+  - Covert Communication
