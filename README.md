@@ -6,7 +6,7 @@
 
 A fully-kitted out Chess960 (Fischer Random Chess) position generator, encoder/decoder, message packer, built from scratch. Also includes a Verilog RTL implementation for hardware use.
 
-This backs the IEEE paper on FPGA-based Chess960 generation for steganography. Shoutout to my co-author Naman Goyal, who previously maintained the prototype code [here](https://github.com/NamanGoyalK/Chess960).
+This backs the IEEE paper on [FPGA-based Chess960 generation](https://doi.org/10.1109/SISIMPACT67725.2025.11439749) for steganography. Shoutout to my co-author Naman Goyal, who previously maintained the prototype code [here](https://github.com/NamanGoyalK/Chess960).
 
 ## Structure
 
