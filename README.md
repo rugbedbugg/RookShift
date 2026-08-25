@@ -190,6 +190,10 @@ RookShift/
 }
 ```
 
+## License
+
+MIT, see [LICENSE](LICENSE).
+
 ## Links
 
 - **Repo:** https://github.com/rugbedbugg/RookShift
