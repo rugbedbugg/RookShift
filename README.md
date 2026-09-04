@@ -173,7 +173,7 @@ RookShift/
 ├── work/                         # ModelSim work library (gitignored)
 ├── .github/workflows/c-cpp.yml   # CI: build + test on Ubuntu/macOS/Windows
 ├── Makefile
-├── CITATION.CFF
+├── CITATION.cff
 ├── LICENSE                       # Apache-2.0
 ├── NOTICE                        # Attribution for the upstream prototype
 └── README.md

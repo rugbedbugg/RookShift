@@ -18,7 +18,7 @@ conference:
   name: "IEEE 1st International Conference on Smart Innovations in Systems, Infrastructure, Mechanical, Power, AI and Computing Technologies (SISIMPACT)"
 doi: "10.1109/SISIMPACT67725.2025.11439749"
 license: Apache-2.0
-repository-code: "https://github.com/NamanGoyalK/Chess960"
+repository-code: "https://github.com/rugbedbugg/RookShift"
 keywords:
   - FPGA
   - Chess960
