@@ -1,0 +1,19 @@
+# Normalize every text file to LF in the repository and in the working tree.
+# The repo previously mixed CRLF (hdl/, sim/) with LF (src/, tests/, tools/),
+# which turned any HDL edit into a whole-file diff.
+* text=auto eol=lf
+
+# Verilog RTL and shared headers
+*.v    text eol=lf
+*.vh   text eol=lf
+
+# ModelSim macro scripts
+*.do   text eol=lf
+
+# Generated position ROM consumed by $readmemh
+*.mem  text eol=lf
+
+# Never touch these
+*.exe  binary
+*.wlf  binary
+*.qdb  binary
