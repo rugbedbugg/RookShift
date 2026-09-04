@@ -174,6 +174,8 @@ RookShift/
 ├── .github/workflows/c-cpp.yml   # CI: build + test on Ubuntu/macOS/Windows
 ├── Makefile
 ├── CITATION.CFF
+├── LICENSE                       # Apache-2.0
+├── NOTICE                        # Attribution for the upstream prototype
 └── README.md
 ```
 
@@ -192,11 +194,13 @@ RookShift/
 
 ## License
 
-MIT, see [LICENSE](LICENSE).
+Apache License 2.0, see [LICENSE](LICENSE).
+
+RookShift is a derivative work of the Chess960 FPGA prototype by Naman Goyal, which is itself Apache-2.0 licensed. Attribution for the original work is recorded in [NOTICE](NOTICE).
 
 ## Links
 
 - **Repo:** https://github.com/rugbedbugg/RookShift
 - **Paper:** https://doi.org/10.1109/SISIMPACT67725.2025.11439749
 - **Issues:** https://github.com/rugbedbugg/RookShift/issues
-- **Prototype (Naman Goyal):** https://github.com/NamanGoyalK/Chess960
+- **Derived from (Naman Goyal's prototype):** https://github.com/NamanGoyalK/Chess960
