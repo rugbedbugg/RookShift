@@ -69,8 +69,11 @@ A fully-kitted Chess960 (Fischer Random Chess) position generator, encoder/decod
 ### Build C++ Targets
 
 ```bash
-make
+make          # build all four targets into build/
+make check    # build the tests and run them
+
 # or manually:
+mkdir -p build
 g++ -std=c++17 -O2 -Wall -Wextra -Isrc src/chess960_demo.cpp -o build/chess960_demo.exe
 g++ -std=c++17 -O2 -Wall -Wextra -Isrc tests/chess960_tests.cpp -o build/chess960_tests.exe
 g++ -std=c++17 -O2 -Wall -Wextra -Isrc tests/chess960_message_tests.cpp -o build/chess960_message_tests.exe
@@ -137,7 +140,10 @@ Expected: **66/66 tests passed**, fixed 6-cycle generate latency, 1-cycle decode
 ## Testing
 
 ```bash
-# C++ tests
+# Both C++ suites, the way CI runs them
+make check
+
+# Or individually:
 ./build/chess960_tests.exe
 # Exhaustive: all 960 positions encode↔decode correctly
 

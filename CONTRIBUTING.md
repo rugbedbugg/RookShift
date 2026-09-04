@@ -4,13 +4,13 @@ RookShift contains a dependency-free C++17 implementation and matching Verilog R
 
 ## Build and test
 
-Build the C++ targets with:
+Build the C++ targets and run both test suites with:
 
 ```sh
-make
-./build/chess960_tests.exe
-./build/chess960_message_tests.exe
+make check
 ```
+
+That builds both suites into `build/` and runs them, which is exactly what CI does on Linux, macOS, and Windows.
 
 The position suite must continue to round-trip all 960 Chess960 back ranks. For RTL changes, regenerate `data/chess960_positions.mem` and run the ModelSim flow documented in `README.md`; the expected result is 66 passing tests with the documented latencies.
 
